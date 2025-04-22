@@ -36,6 +36,7 @@ Create a virtual machine using the Azure Portal with step-by-step instructions a
 
 ![Create VM Button](images/hit.png)
 
+
 ---
 
 ### 📝 4. Configure the Basic Settings
@@ -49,7 +50,7 @@ Create a virtual machine using the Azure Portal with step-by-step instructions a
 - **Username**: `azureuser`
 - **Password**: Create a strong one
 
-![Basic Settings](images/basic-settings.png)
+![Basic Settings](images/after.png)
 
 ---
 
