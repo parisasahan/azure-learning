@@ -18,7 +18,7 @@ Create a virtual machine using the Azure Portal with step-by-step instructions a
 - Go to: [https://portal.azure.com](https://portal.azure.com)
 - Enter your login credentials.
 
-![Azure Login Page](images/azure-login.png)
+![Azure Login Page](images/loginpage.png)
 
 ---
 
@@ -85,17 +85,6 @@ Create a virtual machine using the Azure Portal with step-by-step instructions a
 - Click **Connect** > choose `RDP` (Windows) or `SSH` (Linux).
 - Follow the instructions to access your VM.
 
-![Connect to VM](images/connect-vm.png)
 
----
 
-## 🧽 Clean Up (Optional)
-To avoid charges, delete the VM and its resources:
-- Go to the Resource Group > Click `Delete Resource Group`.
-
----
-
-## 📚 References
-- [Azure VM Documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/)
-- [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
 
