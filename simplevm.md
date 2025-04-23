@@ -1,16 +1,8 @@
 # 🖥️ Create a Simple Virtual Machine on Azure (GUI)
 
 ## 🎯 Objective
-Create a virtual machine using the Azure Portal with step-by-step instructions and GUI screenshots.
+Creating an virtual machine using the Azure Portal with step-by-step instructions and GUI screenshots.
 
----
-
-## 📋 Prerequisites
-- An active [Azure account](https://portal.azure.com)
-- Basic knowledge of cloud and VMs
-- Internet connection
-
----
 
 ## 🚀 Steps to Create the VM
 
