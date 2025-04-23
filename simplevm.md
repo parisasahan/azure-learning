@@ -51,7 +51,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - Ensure Public IP is enabled.
 - Allow selected ports (e.g., SSH for Linux or RDP for Windows).
 
-![Networking Settings](images/networking-settings.png)
+![Networking Settings](images/2025-04-23_12-51-20.png)
 
 ---
 
