@@ -43,7 +43,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - **Password**: Create a strong one
 
 ![Basic Settings](images/after.png)
-
+![Create VM Button](images/basic.jpg)
 ---
 
 ### 5. Configure Networking (Optional)
