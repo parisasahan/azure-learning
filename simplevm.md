@@ -71,8 +71,9 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
  ![deploy](images/adp.png)
 - after the file is downloaded your window will look like this , click on the 'connect'
   ![deploy](images/dpp.png)
+  
 ##&connecting to virtual machine
-- your have to enter the user name and password which , which has been while cretaion of the virtual machine
+- your have to enter the user name and password which , which has been given  while cretaion of the virtual machine
 - 
   
 
