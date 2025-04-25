@@ -63,6 +63,11 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ![Review and Create](images/reviewandcreate.jpg)
 
+
+ -after review and create your virtual machine will be 'deployed' you should go near the resoure in the resource group and click on virtual machine name
+ ![deploy](images/dp.png)
+
+
 ---
 
 ### ⏳ 7. Deployment in Progress
