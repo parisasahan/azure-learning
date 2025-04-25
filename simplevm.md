@@ -4,7 +4,7 @@
 Creating an virtual machine using the Azure Portal with step-by-step instructions and GUI screenshots.
 
 
-## 🚀 Steps to Create the VM
+##  Steps to Create the VM
 
 ### 🔐 1. Sign in to Azure Portal
 - Go to: [https://portal.azure.com](https://portal.azure.com)
@@ -14,7 +14,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ---
 
-### 📦 2. Search for "Virtual Machines"
+###  2. Search for "Virtual Machines"
 - On the homepage, use the top search bar and type `Virtual Machines`.
 - Click on the result.
 
@@ -22,7 +22,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ---
 
-### ➕ 3. Click “Create” > “Virtual Machine”
+### 3. Click “Create” > “Virtual Machine”
 - On the Virtual Machines page, click the `+ Create` button.
 - Then choose `Azure virtual machine`.
 
@@ -31,7 +31,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ---
 
-### 📝 4. Configure the Basic Settings
+### 4. Configure the Basic Settings
 - **Subscription**: Select your active subscription.
 - **Resource group**: Create new (e.g., `MyVMGroup`) or use an existing one.
 - **Virtual machine name**: `MyFirstVM`
@@ -46,7 +46,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ---
 
-### 🌐 5. Configure Networking (Optional)
+### 5. Configure Networking (Optional)
 - Keep default settings or create a new virtual network.
 - Ensure Public IP is enabled.
 - Allow selected ports (e.g., SSH for Linux or RDP for Windows).
@@ -56,25 +56,24 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ---
 
-### ✅ 6. Review + Create
+###  6. Review + Create
 - Click `Next` until you reach the **Review + Create** tab.
 - Review all your settings.
 - Click the `Create` button.
 
 ![Review and Create](images/reviewandcreate.jpg)
 
+-after review and create your virtual machine will be 'deployed' you should go near the resoure in the resource group and click on virtual machine name
+![deploy](images/dp.png)
 
- -after review and create your virtual machine will be 'deployed' you should go near the resoure in the resource group and click on virtual machine name
- ![deploy](images/dp.png)
-
- - you will be haveing an window like this from which you have to **download** RDP file then you have click on the rdp file to connect to your virtual machine
- ![deploy](images/adp.png)
+- you will be haveing an window like this from which you have to **download** RDP file then you have click on the rdp file to connect to your virtual machine
+![deploy](images/adp.png)
 - after the file is downloaded your window will look like this , click on the 'connect'
-  ![deploy](images/dpp.png)
+![deploy](images/dpp.png)
   
 ##&connecting to virtual machine
 - your have to enter the user name and password which , which has been given  while cretaion of the virtual machine
-- 
+
   
 
 
