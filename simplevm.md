@@ -26,7 +26,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - On the Virtual Machines page, click the `+ Create` button.
 - Then choose `Azure virtual machine`.
 
-![Create VM Button](images/hit.png)
+![Create VM Button](images/hit1.jpg)
 
 
 ---
