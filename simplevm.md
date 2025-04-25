@@ -67,22 +67,15 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
  -after review and create your virtual machine will be 'deployed' you should go near the resoure in the resource group and click on virtual machine name
  ![deploy](images/dp.png)
 
+ - you will be haveing an window like this from which you have to **download** RDP file then you have click on the rdp file to connect to your virtual machine
+ ![deploy](images/adp.png)
+- after the file is downloaded your window will look like this , click on the 'connect'
+  ![deploy](images/dpp.png)
+##&connecting to virtual machine
+- your have to enter the user name and password which , which has been while cretaion of the virtual machine
+- 
+  
 
----
-
-### ⏳ 7. Deployment in Progress
-- Azure will begin deploying your VM.
-- You’ll see a progress bar and confirmation when done.
-
-![Deployment Progress](images/deployment.png)
-
----
-
-### 🟢 8. Connect to Your VM
-- Go back to the Virtual Machines dashboard.
-- Select your VM (`MyFirstVM`).
-- Click **Connect** > choose `RDP` (Windows) or `SSH` (Linux).
-- Follow the instructions to access your VM.
 
 
 
