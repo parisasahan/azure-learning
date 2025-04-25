@@ -61,7 +61,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - Review all your settings.
 - Click the `Create` button.
 
-![Review and Create](images/review-create.png)
+![Review and Create](images/reviewandcreate.jpg)
 
 ---
 
