@@ -6,11 +6,11 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 
 ##  Steps to Create the VM
 
-### 🔐 1. Sign in to Azure Portal
+###  1. Sign in to Azure Portal
 - Go to: [https://portal.azure.com](https://portal.azure.com)
 - Enter your login credentials.
 
-![Azure Login Page](images/loginpage.png)
+![Azure Login Page](images/loginpage1.jpg)
 
 ---
 
