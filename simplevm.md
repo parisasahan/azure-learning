@@ -42,7 +42,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - **Username**: `azureuser`
 - **Password**: Create a strong one
 
-![Basic Settings](images/after.png)
+![Basic Settings](images/hit2.png)
 ![Create VM Button](images/basic.jpg)
 ---
 
