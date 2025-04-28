@@ -50,7 +50,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - Keep default settings or create a new virtual network.
 - Ensure Public IP is enabled.
 - Allow selected ports (e.g., SSH for Linux or RDP for Windows).
-- We dont need to make changes in the monitoring session and mangaement session if you need any you can change that , those are only required for advanced purposes.
+- We don't need to make changes in the 'monitoring session and mangaement session' if you need any you can change that , those are only required for advanced purposes.
 
 ![Networking Settings](images/2025-04-23_12-51-20.png)
 
@@ -71,7 +71,7 @@ Creating an virtual machine using the Azure Portal with step-by-step instruction
 - after the file is downloaded your window will look like this , click on the 'connect'
 ![deploy](images/dpp.png)
   
-##&connecting to virtual machine
+## connecting to virtual machine
 - your have to enter the user name and password which , which has been given  while cretaion of the virtual machine
 
   
