@@ -38,12 +38,16 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
    - **Plan type**: Choose `Consumption (Serverless)`
    ![Azure Login Page](images/fun3.jpg)
    ![Azure Login Page](images/4fun.jpg)
-4. Click **Next: Hosting**
+   ![Azure Login Page](images/5fun.jpg)
+4. Click **Next: storage**
    - You will be prompted to create a **Storage account** — this will be used by your Function App.
    - Accept the default name or modify it (e.g., `blobfuncstorage2025`)
+   ![Azure Login Page](images/fun6.jpg)
 5. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
 6. Click **Review + create** → After validation, click **Create**
-7. Wait for deployment → Click **Go to resource**
+![Azure Login Page](images/fun7.jpg)
+![Azure Login Page](images/fun8.jpg)
+8. Wait for deployment → Click **Go to resource**
 
 ---
 
