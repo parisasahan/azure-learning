@@ -25,14 +25,15 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 ## 🔹 Step 2: Create a Function App with Python Runtime
 
 1. In the top search bar, type **Function App**, and click on it.
+
 ![Azure Login Page](images/1fun.jpg)
 
-3. Click **+ Create**
+2. Click **+ Create**
 ![Azure Login Page](images/2fun.jpg)
 
 ![Azure Login Page](images/fun3.jpg)
 
-5. Under the **Basics** tab:
+3. Under the **Basics** tab:
    - **Subscription**: Select your subscription
    - **Resource Group**: Click **Create new** or select an existing one (e.g., `blobtrigger-rg`)
    - **Function App name**: Enter a globally unique name (e.g., `blobfuncpython2025`)
@@ -45,19 +46,19 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 ![Azure Login Page](images/4fun.jpg)
 
 ![Azure Login Page](images/5fun.jpg)
-6. Click **Next: storage**
+4. Click **Next: storage**
    - You will be prompted to create a **Storage account** — this will be used by your Function App.
    - Accept the default name or modify it (e.g., `blobfuncstorage2025`)
      
 ![Azure Login Page](images/fun6.jpg)
-7. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
-8. Click **Review + create** → After validation, click **Create**
+5. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
+6. Click **Review + create** → After validation, click **Create**
 
 ![Azure Login Page](images/fun7.jpg)
 
 ![Azure Login Page](images/fun8.jpg)
 
-9. Wait for deployment → Click **Go to resource**
+7. Wait for deployment → Click **Go to resource**
 ![Azure Login Page](images/fun9.jpg)
 
 ---
@@ -89,7 +90,9 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 5. Set **Public access level** to `Private (no anonymous access)`
 6. Click **Create**
 ![Azure Login Page](images/fun10sto.jpg)
+
 ![Azure Login Page](images/fun11s.jpg)
+
 ![Azure Login Page](images/fun12.jpg)
 
 ---
