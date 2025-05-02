@@ -52,6 +52,7 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 ![Azure Login Page](images/fun6.jpg)
 7. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
 8. Click **Review + create** → After validation, click **Create**
+
 ![Azure Login Page](images/fun7.jpg)
 
 ![Azure Login Page](images/fun8.jpg)
@@ -87,24 +88,12 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 4. Enter a name (e.g., `sample-container`)
 5. Set **Public access level** to `Private (no anonymous access)`
 6. Click **Create**
-![Azure Login Page](images/fun10.jpg)
-![Azure Login Page](images/fun11.jpg)
+![Azure Login Page](images/fun10sto.jpg)
+![Azure Login Page](images/fun11s.jpg)
+![Azure Login Page](images/fun12.jpg)
 
 ---
 
-## 🔹 Step 5: Update the Trigger Path (if needed)
-
-If you left the **Blob path** blank or entered the wrong name earlier:
-
-1. Go back to your **Function App** → **Functions** → Click on `BlobTriggerPython`
-2. Click **Integration** from the left panel
-3. Under **Trigger**, change the **Path** to:  
-   ```
-   sample-container/{name}
-   ```
-4. Click **Save**
-
----
 
 ## 🔹 Step 6: Review & Edit the Python Code
 
@@ -119,7 +108,9 @@ def main(myblob: func.InputStream):
     logging.info(f"Python blob trigger function processed blob \n"
                  f"Name: {myblob.name}\n"
                  f"Blob Size: {myblob.length} bytes")
+
 ```
+3.Make sure that the Name and container name are which you have created in the storage account
 
 ---
 
@@ -127,9 +118,16 @@ def main(myblob: func.InputStream):
 
 1. Go back to your **Storage Account** → **Containers** → Click `sample-container`
 2. Click **Upload** → Select a file (e.g., `testfile.txt`) → Click **Upload**
+
+![Azure Login Page](images/fun18.jpg)
+
 3. Go back to your **Function App** → **Functions** → Click `BlobTriggerPython`
-4. Click **Monitor** from the left panel
+4. Click **logs** from the left panel
 5. You should see output like:
+
+![Azure Login Page](images/fun19.jpg)
+
+
 
 ```
 ---
