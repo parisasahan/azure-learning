@@ -19,16 +19,20 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 1. Open a web browser and go to: [https://portal.azure.com](https://portal.azure.com)
 2. Sign in using your Azure credentials.
 ![Azure Login Page](images/loginpage1.jpg)
+
 ---
 
 ## 🔹 Step 2: Create a Function App with Python Runtime
 
 1. In the top search bar, type **Function App**, and click on it.
 ![Azure Login Page](images/1fun.jpg)
-2. Click **+ Create**
+
+3. Click **+ Create**
 ![Azure Login Page](images/2fun.jpg)
+
 ![Azure Login Page](images/fun3.jpg)
-4. Under the **Basics** tab:
+
+5. Under the **Basics** tab:
    - **Subscription**: Select your subscription
    - **Resource Group**: Click **Create new** or select an existing one (e.g., `blobtrigger-rg`)
    - **Function App name**: Enter a globally unique name (e.g., `blobfuncpython2025`)
@@ -37,35 +41,39 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
    - **Version**: Select `3.9`
    - **Operating System**: Select `Windows` or `Linux`
    - **Plan type**: Choose `Consumption (Serverless)`
-   ![Azure Login Page](images/4fun.jpg)
-   ![Azure Login Page](images/5fun.jpg)
-5. Click **Next: storage**
+   
+![Azure Login Page](images/4fun.jpg)
+
+![Azure Login Page](images/5fun.jpg)
+6. Click **Next: storage**
    - You will be prompted to create a **Storage account** — this will be used by your Function App.
    - Accept the default name or modify it (e.g., `blobfuncstorage2025`)
-   ![Azure Login Page](images/fun6.jpg)
-6. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
-7. Click **Review + create** → After validation, click **Create**
+     
+![Azure Login Page](images/fun6.jpg)
+7. Click **Next: Monitoring** → Leave settings as-is (disable Application Insights if not needed)
+8. Click **Review + create** → After validation, click **Create**
 ![Azure Login Page](images/fun7.jpg)
+
 ![Azure Login Page](images/fun8.jpg)
-8. Wait for deployment → Click **Go to resource**
+
+9. Wait for deployment → Click **Go to resource**
 ![Azure Login Page](images/fun9.jpg)
 
 ---
 
 ## 🔹 Step 3: Add a Blob Trigger Function
 
-1. In your newly created Function App, on the left panel, click **Functions**
-2. Click **+ Add**
-3. Under the **Development Environment**, choose **Develop in Portal**
-![Azure Login Page](images/fun10.jpg)
-4. Under **Template**, select **Azure Blob Storage trigger**
-6. Fill in the details:
+1. After you click on your function name there will be functions in the bottom centre of the tab
+   then click on the create function button
+   ![Azure Login Page](images/fun15.jpg)
+2. Under **Template**, select **Azure Blob Storage trigger**  
+3. Fill in the details:
    - **Function name**: `BlobTriggerPython`
    - **Path**: Leave blank for now (you’ll edit it after creating the container)
    - **Storage account connection**: Select the auto-generated Storage Account (e.g., `blobfuncstorage2025`)
-7. Click **Create**
-![Azure Login Page](images/fun.jpg)
-![Azure Login Page](images/fun.jpg)
+8. Click **Create**
+![Azure Login Page](images/fun16.jpg)
+![Azure Login Page](images/fun17.jpg)
 
 📌 *Note: The container you want to monitor (e.g., `sample-container`) doesn't exist yet, but we’ll create it next.*
 
