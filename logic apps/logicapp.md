@@ -21,12 +21,12 @@ Create an Azure Logic App that triggers on a schedule (recurrence) and sends an 
 1. Go to [https://portal.azure.com](https://portal.azure.com)
 2. Sign in with your Azure credentials
 
-   ![](image/16.png)
+ ![](image/16.png)
 
 
 
 
-   ![Azure Login Page](image/pass.png)
+ ![Azure Login Page](image/pass.png)
    
 ### Step 2: Create a Logic App
 
@@ -94,21 +94,24 @@ Create an Azure Logic App that triggers on a schedule (recurrence) and sends an 
 
 1. Click **Save**
 
- ![Azure Login Page](image/17.png)
+![Azure Login Page](image/17.png)
 
 2. Then hit on the run button
  
-  ![Azure Login Page](image/18.png)
+![Azure Login Page](image/18.png)
   
 3. Your Logic App is now live and will send an email based on the defined recurrence
-   ![Azure Login Page](image/sahanpic.png)
+
+![Azure Login Page](image/sahanpic.png)
 
 ### Step 6: Monitor the Run
 
 1. In the Logic App under deployment tools, click **Runs history**
 2. Check for success/failure of each run
 3. Click on individual runs for detailed input/output logs
+
 ![Azure Login Page](image/19.png)
+
 ---
 
 ## Summary
