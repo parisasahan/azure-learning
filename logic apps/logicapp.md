@@ -101,7 +101,7 @@ Create an Azure Logic App that triggers on a schedule (recurrence) and sends an 
   ![Azure Login Page](image/18.png)
   
 3. Your Logic App is now live and will send an email based on the defined recurrence
-   ![Azure Login Page](image/20.png)
+   ![Azure Login Page](image/sahanpic.png)
 
 ### Step 6: Monitor the Run
 
