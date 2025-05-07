@@ -20,7 +20,8 @@ Create an Azure Logic App that triggers on a schedule (recurrence) and sends an 
 
 1. Go to [https://portal.azure.com](https://portal.azure.com)
 2. Sign in with your Azure credentials
-   ![](https://github.com/parisasahan/azure-learning/blob/main/logic%20apps/image/Screenshot%202025-05-07%20125736.png)
+
+   ![](https://github.com/parisasahan/azure-learning/blob/main/logic%20apps/image/Screenshot%202025-05-07%20125736.png)![Azure Login Page](image/pass.png)
    
 ### Step 2: Create a Logic App
 
