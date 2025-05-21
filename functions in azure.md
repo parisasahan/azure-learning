@@ -90,6 +90,7 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 4. Enter a name (e.g., `sample-container`)
 5. Set **Public access level** to `Private (no anonymous access)`
 6. Click **Create**
+
 ![Azure Login Page](images/fun10sto.jpg)
 
 ![Azure Login Page](images/fun11s.jpg)
