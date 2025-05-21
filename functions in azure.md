@@ -59,6 +59,7 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 ![Azure Login Page](images/fun8.jpg)
 
 7. Wait for deployment → Click **Go to resource**
+
 ![Azure Login Page](images/fun9.jpg)
 
 ---
