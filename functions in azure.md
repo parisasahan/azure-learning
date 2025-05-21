@@ -18,6 +18,7 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 
 1. Open a web browser and go to: [https://portal.azure.com](https://portal.azure.com)
 2. Sign in using your Azure credentials.
+
 ![Azure Login Page](images/loginpage1.jpg)
 
 ---
