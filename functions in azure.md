@@ -29,6 +29,7 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 ![Azure Login Page](images/1fun.jpg)
 
 2. Click **+ Create**
+
 ![Azure Login Page](images/2fun.jpg)
 
 ![Azure Login Page](images/fun3.jpg)
@@ -68,14 +69,18 @@ Create and test an **Azure Function** using a **Blob Trigger** in Python. The fu
 
 1. After you click on your function name there will be functions in the bottom centre of the tab
    then click on the create function button
+
    ![Azure Login Page](images/fun15.jpg)
-2. Under **Template**, select **Azure Blob Storage trigger**  
-3. Fill in the details:
+   
+3. Under **Template**, select **Azure Blob Storage trigger**  
+4. Fill in the details:
    - **Function name**: `BlobTriggerPython`
    - **Path**: Leave blank for now (you’ll edit it after creating the container)
    - **Storage account connection**: Select the auto-generated Storage Account (e.g., `blobfuncstorage2025`)
 8. Click **Create**
+
 ![Azure Login Page](images/fun16.jpg)
+
 ![Azure Login Page](images/fun17.jpg)
 
 📌 *Note: The container you want to monitor (e.g., `sample-container`) doesn't exist yet, but we’ll create it next.*
